@@ -1,4 +1,5 @@
 # ML based admission chances predictor app
 A machine learning model trained by XGboost regression to predict the chances of an individual for getting into an university. The model uses features like GRE score, TOEFL score, SOP strength, LOR strength, University rating, CGPA and research strength to predict the probability. The dataset used has 1000 samples, 70% of which has been used to train and 30% to test the model for its performance. The R2 score is 0.926(app.) ,which is really close to 1, while the mean relative error is only about 0.13%. Indicating the model is strong and precise. The adjusted R2 is almost the same as R2, which means the features used were useful and no unnecessary overfitting occured. The Mean absolute error was found to be 0.0135(app.) and root mean squared error 0.03714(app.). They are really small indicating the very good accuracy of our model. However, the RMSE is mentionably larger than the MAE which means, the model might predict some cases with larger error.<br>
 <br>
-The model was used in an app, made using streamlit.
+The model was used in an app, made using streamlit library of Python. The app is directly accessible through is link:<br>
+https://ml-based-admission-chances-predictor-app-489cdbvuqdsbrk2gdqsh7.streamlit.app/
